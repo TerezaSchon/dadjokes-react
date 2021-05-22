@@ -10,8 +10,8 @@ const App = () => {
       <Joke
         /* props={jokeBlock} */
         key={jokeBlock.name}
-        userAvatar={jokeBlock.avatar}
-        userName={jokeBlock.name}
+        avatar={jokeBlock.avatar}
+        name={jokeBlock.name}
         text={jokeBlock.text}
         likes={jokeBlock.likes}
         dislikes={jokeBlock.dislikes}
