@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { render } from 'react-dom';
-import '../style.css';
+import './style.css';
 
 export const Joke = (props) => {
   const [like, setLike] = useState(0);
